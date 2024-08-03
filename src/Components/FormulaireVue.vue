@@ -29,6 +29,7 @@ const addList = function () {
     text: `${inputValue.value}`,
     etat: false,
   });
+  
   emit ('add-tache', todoArray)
   changeValue();
 };
